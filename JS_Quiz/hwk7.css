@@ -1,0 +1,25 @@
+/* hwk7.css
+   Evan Johnston
+   17 October 2014
+*/
+
+html{
+ margin: 10px;
+ padding: 10px;
+ font-family: verdana, sans-serif;
+}
+
+p{
+ font-size: 16px;
+}
+
+body{
+ width: 500px;
+ position: absolute;
+ left: 30%;
+}
+
+input[type=text]{
+ font-size: 16px;
+}
+

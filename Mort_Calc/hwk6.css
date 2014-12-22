@@ -1,0 +1,26 @@
+/* hwk 6 css
+	mortgage calculator
+	Evan Johnston
+*/
+
+html{
+ background-color: #003366;
+ color: #FFFFCC;
+ font-family: Verdana, sans-serif;
+}
+
+h1{
+ text-align: center;
+}
+
+table{
+ margin-left: auto;
+ margin-right: auto;
+ padding: 40px;
+ border: 5px double #FFFFCC;
+ line-height: 300%;
+}
+
+.head, .butt{
+ text-align: center;
+}

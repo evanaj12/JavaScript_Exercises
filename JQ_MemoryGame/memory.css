@@ -1,0 +1,14 @@
+html{
+	font-family: Verdana;
+}
+
+td, input{
+	width: 80px;
+	height: 80px;
+	font-size: 80px;
+}
+
+.message{
+	font-size: 24px;
+	text-align: center;
+}

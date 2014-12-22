@@ -1,0 +1,62 @@
+/* hwk css */
+
+html{
+ font-family: Verdana, Sans-serif;
+}
+
+h1{
+ text-align: center;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ position: absolute;
+ left: 500px;
+}
+
+
+#grid{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ position: absolute;
+ left: 320px;
+ top: 120px;
+}
+
+#dock{
+ margin-left: auto;
+ margin-right: auto;
+ color: white;
+}
+
+input{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ font-size: 36px;
+ position: absolute;
+ left: 600px;
+ top: 600px;
+}
+
+#timer{
+ position: absolute;
+ left:0px;
+ top: 50px;
+ margin: 5px;
+ padding: 5px;
+}
+
+#label{
+ font-size: 18px;
+}
+
+img{
+ margin-bottom: 8px;
+ padding-bottom: 8px;
+}
+
+#messages{
+ position: absolute;
+ top:650px;
+ left: 40%;
+}

@@ -1,0 +1,41 @@
+/* hwk8 css
+   Evan Johnston */
+
+html{
+ font-family: arial, sans-serif;
+ margin: 10px;
+ padding: 10px;
+}
+
+h2{
+ font-size: 18px;
+ text-align: center;
+}
+
+body{
+ width: 350px;
+ margin: 10px;
+ padding: 10px;
+}
+
+table{
+ border: dotted 2px black;
+ margin: 3px;
+ padding: 3px;
+ color: white;
+ background-color: #00246B;
+}
+
+td{
+ font-size: 10px;
+ text-align: justify;
+}
+
+.name{
+ font-size: 16px;
+}
+
+input{
+ font-size: 16px;
+}
+

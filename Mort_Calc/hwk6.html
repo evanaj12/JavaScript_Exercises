@@ -1,0 +1,43 @@
+<!-- Evan Johnston
+	hwk6 html
+	mortgage calculator -->
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Mortgage Calculator</title>
+ <link rel="stylesheet" type="text/css" href="./hwk6.css">
+</head>
+<body>
+ <h1>Mortgage Calculator</h1>
+ <br>
+ <hr>
+ <br>
+ <form name="mort_calc" id="mort_calc" action='' method='post'>
+  <table>
+  
+   <!-- input fields -->
+    <tr><td colspan="2" class="head"><u><b>Your Information</b></u></td></tr>
+    <tr><td>Principle Amount:</td><td>$<input type='text' name='p'></td></tr>
+    <tr><td>Yearly % Interest Rate:</td><td><input type='text' name='ir'>%</td></tr>
+    <tr><td>Loan Term in Months:</td><td><input type='text' name='months'></td></tr>
+    <tr><td colspan="2"><hr></td></tr>
+
+   <!-- action fields -->
+   <tr><td class="butt"> <input type='button' name="calc" value="Calculate"></td>
+       <td class="butt"> <input type='reset' name='clear' value="Clear"></td></tr>
+   <tr><td colspan="2"><hr></td></tr>
+ 
+   <!-- output fields -->
+   <tr><td colspan="2" class="head"><u><b>Your Results</b></u></td></tr>
+   <tr><td>Monthly Payments:</td><td>$<input type='text' name='pay_month' value=''></td></tr>
+   <tr><td>Sum of Payments:</td><td>$<input type='text' name='pay_sum' value=''></td></tr>
+   <tr><td>Total Interest Paid:</td><td>$<input type='text' name='total' value=''></td></tr>
+  </table>
+ </form>
+ 
+ <script type="text/javascript" src="./mortgageCalc.js">
+ </script>
+
+</body>
+</html>

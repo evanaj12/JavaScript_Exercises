@@ -1,0 +1,29 @@
+/* tic tac toe css */
+
+td{
+	height: 100px;
+	width: 100px;
+}
+input[type=button]{
+	width: 35px;
+	margin: 40px;	
+}
+
+#top, #mid{
+	border-bottom: 5px solid white;
+}
+
+.left, .mid{
+	border-right: 5px solid white;
+}
+
+table { 
+    border-collapse: collapse; 
+}
+
+html{
+	background-color: black;
+	color: white;
+	font-family: "Arial Black", serif; 
+	letter-spacing: 5px;
+}
